@@ -1,0 +1,52 @@
+.color-palette{
+    color: #22577A;
+    color: #38A3A5;
+    color: #57CC99;
+    color: #80ED99;
+    color: #C7F9CC;
+
+}
+
+body {
+    display: flex;
+
+    /* vertical */
+    align-items: center;
+
+    /* horizontal */
+    justify-content: center;
+
+    /*das ist notwendig, damit das zentrieren funktioniert (vertikal) vh=viewpoint height*/
+    min-height: 100vh;
+}
+
+.card-container{
+    background-color: my-light-gray;
+    color: white;
+    width: 350px;
+    max-width: 100%;
+    text-align: center;
+    padding: 20px;
+    padding-top: 25px;
+}
+
+
+.button{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+    font-size: larger;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 1px solid;
+    border-color: greenyellow;
+    padding: 7px;
+}
