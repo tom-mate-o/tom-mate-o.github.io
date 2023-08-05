@@ -45,9 +45,28 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     border: none;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 button:hover{
+    background-color: #57CC99;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #38A3A5;
+    color: white;
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+    font-size: larger;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    font-family: 'Didact Gothic', sans-serif;
+  }
+
+  input[type="submit"]:hover{
     background-color: #57CC99;
     cursor: pointer;
 }
@@ -59,4 +78,20 @@ button:hover{
     border: 1px solid;
     border-color: #80ED99;
     padding: 7px;
+}
+
+hr{
+    color: #80ED99; 
+    margin-bottom: 20px;
+}
+
+h1{
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    line-height: 0;
+    margin-bottom: 25px;
+    font-family: 'Didact Gothic', sans-serif;
 }
