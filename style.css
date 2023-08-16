@@ -90,8 +90,13 @@ h1{
     font-weight: bold;
 }
 
-p{
+p, label{
     line-height: 0;
     margin-bottom: 25px;
     font-family: 'Didact Gothic', sans-serif;
+}
+
+.form{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

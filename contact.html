@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/86657b62d4.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/86657b62d4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Tom Kra</title>
-</head>
+  </head>
 
-
-<body>
-
+  <body>
     <div class="card-container">
-        <img class="avatar" src="tomsea.jpg">
-        <h1>Contact</h1>
-        <hr>
-        <form action="mailto:lsd76ql3@duck.com" method="post">
-        <p>Name</p>
-         <input type="text" name="name" placeholer="Name"><br>
-         <p>Surname</p>
-         <input type="text" name="surname" placeholer="Surname"><br>
-         <p>E-Mail</p>
-         <input type="email" name="email" placeholder="E-Mail">
-         <p>Whats up?</p>
-         <textarea name="message" placeholder="..."></textarea><br><br>
-        <input type="submit" value="send">
+      <img class="avatar" src="tomsea.jpg" />
+      <h1>Contact</h1>
+      <hr />
 
-   
-        </form>
+      <form action="mailto:lsd76ql3@duck.com" method="post">
+        <label for="Name">Name:</label>
+        <div class="form">
+          <input type="text" id="Name" name="Name" placeholder="hallo" />
+        </div>
+
+        <label for="Surname">Surname:</label>
+        <div class="form">
+          <input type="text" id="Surname" name="Surname" placeholder="Surname" />
+        </div>
+
+        <label for="E-Mail">Email:</label>
+        <div class="form">
+          <input type="email" id="E-Mail" name="E-Mail" placeholder="E-Mail" />
+        </div>
+
+        <label for="Message">What's up?</label>
+        <div class="form">
+          <textarea name="Message" id="Message" placeholder="..."></textarea>
+        </div>
+
+        <br />
+        <br />
+
+        <input type="submit" value="send" />
+      </form>
     </div>
-
-</body>
-
+  </body>
 </html>
